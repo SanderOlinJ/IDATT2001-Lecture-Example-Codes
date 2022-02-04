@@ -9,8 +9,8 @@ public class Person {
 
     @Override
     public String toString() {
-
-        return "\nPerson:" +
-                "\nName = " + name;
+        return "Person{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

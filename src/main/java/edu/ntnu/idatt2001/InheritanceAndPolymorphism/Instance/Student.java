@@ -20,9 +20,8 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "\nStudent:" +
-                "\nStudentNr = " + studentNr +
-                "\n" + super.toString();
-
+        return "Student{" +
+                "studentNr=" + studentNr + ", " +
+                super.toString() + '}';
     }
 }

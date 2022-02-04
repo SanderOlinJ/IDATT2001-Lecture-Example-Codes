@@ -18,8 +18,8 @@ public class Manager extends Employee {
 
     @Override
     public String toString() {
-        return "\nManager:" +
-                "\nTitle = " + title +
-                "\n" + super.toString();
+        return "Manager{" +
+                "title='" + title + '\'' +
+                super.toString() + '}';
     }
 }

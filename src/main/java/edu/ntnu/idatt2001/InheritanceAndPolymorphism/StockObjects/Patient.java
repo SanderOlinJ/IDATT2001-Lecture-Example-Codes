@@ -18,8 +18,8 @@ public class Patient extends Person{
 
     @Override
     public String toString() {
-        return "\nPatient:" +
-                "\nGeneral Practitioner = " + generalPractitioner +
-                "\n" + super.toString();
+        return "Patient{" +
+                "generalPractitioner='" + generalPractitioner + '\'' +
+                super.toString() + '}';
     }
 }
